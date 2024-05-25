@@ -3,6 +3,7 @@
 import { cn } from "@/lib/utils";
 import { useScrollTop } from "@/hooks/use-scroll-top";
 import { ModeToggle } from "@/components/mode-toggle";
+import { LinkedinButton } from "./linkedin-button";
 
 export const Header = () => {
   const { scrolled } = useScrollTop();
@@ -16,6 +17,7 @@ export const Header = () => {
     >
       <div className="md:ml-auto md:justify-end justify-between w-full flex items-center gap-x-2">
         <ModeToggle />
+        <LinkedinButton />
       </div>
     </div>
   );
