@@ -65,11 +65,9 @@ export const TypingComponent = ({
 
   return (
     <span className="relative">
-      <span className="px-4 border-r-4 border-primary text-6xl lg:animate-typing md:block">
+      <span className="px-4 text-6xl sm:text-5xl lg:animate-typing lg:border-r-4 lg:border-primary ">
         {displayedText}
       </span>
     </span>
   );
 };
-
-export default TypingComponent;
