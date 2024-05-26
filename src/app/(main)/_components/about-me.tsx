@@ -2,7 +2,7 @@ import React from "react";
 
 export const AboutMe = () => {
   return (
-    <div>
+    <div className="w-full">
       Experienced <b>Software Engineer</b>, currently a{" "}
       <b>frontend developer</b>. Worked with startups and corporates, excelling
       in React and React Native. Open-minded and eager to learn, I embrace
