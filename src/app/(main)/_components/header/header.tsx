@@ -17,7 +17,7 @@ export const Header = () => {
   return (
     <div
       className={cn(
-        "z-50 bg-background fixed top-0 flex items-center w-full p-6 gap-4 max-w-[60vw]",
+        "z-50 bg-background fixed w-[100vw] 2xl:w-[60vw] top-0 flex items-center p-6 gap-4 ",
         scrolled && "border-b shadow-sm"
       )}
     >
