@@ -36,8 +36,8 @@ export const Certificates = () => {
               <Button variant="link">Show All Certificates(+24)</Button>
             </CarouselItem>
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+          <CarouselPrevious className="h-10 w-10" />
+          <CarouselNext className="h-10 w-10" />
         </Carousel>
       </div>
     </section>
