@@ -17,7 +17,7 @@ export const Header = () => {
   return (
     <div
       className={cn(
-        "z-50 bg-background fixed w-[100vw] 2xl:w-[60vw] top-0 flex items-center p-6 gap-4 ",
+        "z-50 bg-background fixed w-[100vw] 2xl:w-[60vw] top-0 flex items-center p-6 gap-2 ",
         scrolled && "border-b shadow-sm"
       )}
     >
@@ -58,9 +58,9 @@ export const Header = () => {
         </Link>
       </Button>
       <div className="md:ml-auto md:justify-end justify-between w-full flex items-center gap-x-2">
-        <ModeToggle />
         <LinkedinButton />
         <GitHubButton />
+        <ModeToggle />
       </div>
     </div>
   );
