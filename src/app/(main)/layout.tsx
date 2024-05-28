@@ -5,7 +5,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
     <div className="h-full flex justify-center">
       <div className="flex h-full w-[100vw] 2xl:w-[60vw]">
         <Header />
-        <main className="h-full pt-40 w-full">{children}</main>
+        <main className="h-full pt-40 w-full px-6">{children}</main>
       </div>
     </div>
   );
