@@ -1,43 +1,43 @@
-export interface Contribution {
-  title: string;
-  project: string;
-  role: string;
-  date: string;
-  description: string;
-  pullRequestLink: string;
-  imageUrl: string;
+export interface Project {
+  jobTitle: string;
+  projectName: string;
+  roleDescription: string;
+  contributionDate: string;
+  responsibilities: string;
+  sourceCodeLink?: string;
+  previewImageUrl?: string;
+  techStack: string[];
 }
 
-export const contributions: Contribution[] = [
+export const projects: Project[] = [
   {
-    title: "Open Source Contributor",
-    project: "react-native-toast-message",
-    role: "Contributor",
-    date: "2023-12-13",
-    description:
-      "Added new styling options for toast notifications. v2.1.9 Released on changes",
-    pullRequestLink:
-      "https://github.com/calintamas/react-native-toast-message/pull/479",
-    imageUrl: "/contributions/previews/awesome-project-preview.jpg",
+    jobTitle: "Fullstack Developer",
+    projectName: "Shelf.dev",
+    roleDescription: "Project Maintainer",
+    contributionDate: "2023-12-13",
+    responsibilities:
+      "Worked on frontend and backend development, as well as content improvements.",
+    techStack: ["Astro", "React", "Strapi", "Tailwind", "ShadcnUI"],
+    previewImageUrl: "/contributions/previews/awesome-project-preview.jpg",
   },
   {
-    title: "Open Source Contributor",
-    project: "kamp-us/monorepo",
-    role: "Contributor",
-    date: "2022-12-27",
-    description:
-      "Added InternalLink component to Kampus/UI package for internal redirects, updating the package's index file.",
-    pullRequestLink: "https://github.com/kamp-us/monorepo/pull/217",
-    imageUrl: "/contributions/previews/super-app-preview.jpg",
+    jobTitle: "Fullstack Developer",
+    projectName: "Order Delivery Management",
+    roleDescription: "Project Maintainer",
+    contributionDate: "2023-12-13",
+    responsibilities:
+      "Worked on frontend and backend development, as well as content improvements.",
+    techStack: ["Astro", "React", "Strapi", "Tailwind", "ShadcnUI"],
+    previewImageUrl: "/",
   },
   {
-    title: "Open Source Contributor",
-    project: "kamp-us/monorepo",
-    role: "Contributor",
-    date: "2022-12-22",
-    description:
-      "Optimized database queries for fetching, editing, and searching posts, improving performance.",
-    pullRequestLink: "https://github.com/kamp-us/monorepo/pull/207",
-    imageUrl: "/contributions/previews/super-app-preview.jpg",
+    jobTitle: "Fullstack Developer",
+    projectName: "Social Media Feed",
+    roleDescription: "Project Maintainer",
+    contributionDate: "2023-12-13",
+    responsibilities:
+      "Worked on frontend and backend development, as well as content improvements.",
+    techStack: ["Astro", "React", "Strapi", "Tailwind", "ShadcnUI"],
+    previewImageUrl: "/",
   },
 ];
