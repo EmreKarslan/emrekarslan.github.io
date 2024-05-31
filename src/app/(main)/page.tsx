@@ -2,6 +2,7 @@ import { TypingComponent } from "@/components/typing-component";
 import { AboutMe } from "./_components/about-me";
 import { TechStack } from "./_components/tech-stack";
 import { Certificates } from "./_components/certificates";
+import { LatestProjects } from "./_components/latest-projects";
 
 const MainPage = () => {
   return (
@@ -10,6 +11,7 @@ const MainPage = () => {
         <TypingComponent texts={["Welcome to my portfolio!"]} typeSpeed={100} />
         <AboutMe />
         <TechStack />
+        <LatestProjects />
         <Certificates />
         <section>Latest Projects</section>
       </div>
