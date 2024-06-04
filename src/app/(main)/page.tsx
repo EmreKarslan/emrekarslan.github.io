@@ -13,7 +13,6 @@ const MainPage = () => {
         <TechStack />
         <LatestProjects />
         <Certificates />
-        <section>Latest Projects</section>
       </div>
     </div>
   );
